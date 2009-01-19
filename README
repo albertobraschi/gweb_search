@@ -1,6 +1,7 @@
 == Google::GwebSearch
 
 * http://coderepos.org/share/browser/lang/ruby/gweb_search
+* http://github.com/valda/gweb_search/tree/master
 
 == DESCRIPTION:
 
@@ -15,25 +16,25 @@ Thin wrapper for Google AJAX Search API.
       puts r['unescapedUrl']
     end
 
-    >> output(expect)
+    >> output
     http://www.amazon.co.jp/My-Red-Hot-Car-Squarepusher/dp/B00005IBIB
     http://www.amazon.co.jp/Go-Plastic-%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%E3%83%97%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC/dp/B00005L9WE
     http://www.amazon.co.jp/Red-Hot-Car-inch-Analog/dp/B00005FCKA
     http://astore.amazon.co.jp/137439-22/detail/B00005L9WE
-	
+
 == REQUIREMENTS:
 
 * JSON
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install valda-gweb_search
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 YAMAGUCHI Seiji <valda at underscore.jp>
+Copyright (c) 2009 YAMAGUCHI Seiji <valda at underscore.jp>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
